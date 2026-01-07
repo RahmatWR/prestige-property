@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
 	return (
 		<header
 			className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-				isScrolled
+				isScrolled && !isMobileMenuOpen
 					? "bg-background/60 backdrop-blur-xl border-b border-border/30 shadow-lg shadow-black/5 py-4"
 					: "bg-transparent py-6"
 			}`}>
@@ -96,9 +96,9 @@ const Navbar: React.FC = () => {
 					{/* <Link></Link> */}
 					<button
 						onClick={toggleLocale}
-						className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-foreground/80 hover:text-primary transition-colors duration-300 cursor-pointer"
+						className="flex items-center gap-2 p-2 text-sm font-medium text-foreground/80 hover:text-primary transition-colors duration-300 cursor-pointer"
 						aria-label="Toggle language">
-						<Globe className="w-4 h-4" />
+						<Globe className="w-5 h-5" />
 						<span className="uppercase">{locale}</span>
 					</button>
 
@@ -125,7 +125,7 @@ const Navbar: React.FC = () => {
 
 				{/* Mobile Menu Toggle */}
 				<button
-					className="lg:hidden p-2 text-foreground"
+					className="lg:hidden p-2 text-foreground fixed z-41 right-10 cursor-pointer"
 					onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
 					aria-label="Toggle menu">
 					{isMobileMenuOpen ? (
@@ -153,15 +153,15 @@ const Navbar: React.FC = () => {
 
 						<div className="flex items-center gap-4 mt-8">
 							<button
-								onClick={toggleTheme}
-								className="flex items-center gap-2 px-4 py-2 border border-border rounded text-foreground">
-								<Globe className="w-4 h-4" />
+								onClick={toggleLocale}
+								className="flex items-center gap-2 p-3 border border-border rounded text-foreground cursor-pointer hover:bg-primary hover:text-white">
+								<Globe className="w-5 h-5" />
 								{/* <span className="uppercase">{language}</span> */}
 							</button>
 
 							<button
-								// onClick={toggleTheme}
-								className="p-3 border border-border rounded text-foreground">
+								onClick={toggleTheme}
+								className="p-3 border border-border rounded text-foreground cursor-pointer hover:bg-primary hover:text-white">
 								{!mounted ? null : theme === "light" ? (
 									<Moon className="w-5 h-5" />
 								) : (
