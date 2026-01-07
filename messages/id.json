@@ -1,0 +1,109 @@
+{
+	"Navigations": {
+		"home": "Beranda",
+		"about": "Tentang",
+		"projects": "Proyek",
+		"whyUs": "Mengapa Kami",
+		"contact": "Kontak"
+	},
+	"Hero": {
+		"headline": "Membangun Ruang Hidup Modern untuk Masa Depan yang Lebih Baik",
+		"subheadline": "engembangan properti premium yang dirancang untuk kenyamanan, kualitas, dan nilai jangka panjang.",
+		"cta": "Lihat Proyek Kami",
+		"ctaSecondary": "Hubungi Kami"
+	},
+	"About": {
+		"title": "Tentang Prestige Estates",
+		"subtitle": "Menciptakan Keunggulan Sejak 2005",
+		"description": "Dengan pengalaman hampir dua dekade, kami telah memantapkan diri sebagai pengembang properti terkemuka yang berkomitmen menciptakan ruang hidup luar biasa yang tahan uji waktu.",
+		"vision": {
+			"title": "Visi Kami",
+			"text": "Mendefinisikan ulang kehidupan urban dengan menciptakan komunitas residensial yang berkelanjutan, inovatif, dan mewah yang menginspirasi dan meningkatkan kehidupan sehari-hari."
+		},
+		"mission": {
+			"title": "Misi Kami",
+			"text": "Menghadirkan pengembangan properti premium yang melampaui ekspektasi melalui keahlian superior, perhatian terhadap detail, dan komitmen tanpa kompromi terhadap kualitas."
+		},
+		"values": {
+			"title": "Nilai Kami",
+			"text": "Integritas, keunggulan, inovasi, dan orientasi pelanggan memandu setiap keputusan yang kami buat dan setiap proyek yang kami kerjakan."
+		}
+	},
+	"Projects": {
+		"title": "Proyek Unggulan",
+		"subtitle": "Temukan Pengembangan Premium Kami",
+		"viewProject": "Lihat Proyek",
+		"items": [
+			{
+				"name": "The Grand Residence",
+				"location": "Jakarta Selatan",
+				"type": "Hunian Eksklusif"
+			},
+			{
+				"name": "Royal Regency",
+				"location": "BSD City",
+				"type": "Perumahan Modern"
+			},
+			{
+				"name": "Puri Kencana",
+				"location": "SCBD Jakarta",
+				"type": "Perumahan Premium"
+			}
+		]
+	},
+	"WhyUs": {
+		"title": "Mengapa Memilih Kami",
+		"subtitle": "Mitra Terpercaya Anda dalam Properti",
+		"reasons": [
+			{
+				"title": "Rekam Jejak Terbukti",
+				"description": "Lebih dari 50 proyek sukses dengan kepuasan pelanggan 100%."
+			},
+			{
+				"title": "Kualitas Premium",
+				"description": "Kami hanya menggunakan material terbaik dan bermitra dengan arsitek ternama dunia."
+			},
+			{
+				"title": "Proses Transparan",
+				"description": "Komunikasi jelas dan harga jujur dari awal hingga akhir."
+			},
+			{
+				"title": "Dukungan Purna Jual",
+				"description": "Tim layanan pelanggan khusus untuk semua kebutuhan Anda setelah pembelian."
+			}
+		]
+	},
+	"Testimonials": {
+		"title": "Apa Kata Klien Kami",
+		"subtitle": "Dipercaya oleh Ratusan Pemilik Rumah yang Puas",
+		"items": [
+			{
+				"name": "Sarah Wijaya",
+				"role": "Pemilik, The Grand Residence",
+				"quote": "Perhatian terhadap detail dan kualitas konstruksi melampaui semua ekspektasi saya. Benar-benar pengalaman tinggal premium."
+			},
+			{
+				"name": "Michael Chen",
+				"role": "Investor",
+				"quote": "Bekerja dengan Prestige Estates sangat luar biasa. Profesionalisme dan komitmen mereka terhadap kualitas menjadikan mereka mitra sempurna."
+			},
+			{
+				"name": "Dewi Kartika",
+				"role": "Pemilik, Emerald Gardens",
+				"quote": "Dari pertemuan pertama hingga penyerahan kunci, setiap langkah ditangani dengan hati-hati dan transparan."
+			}
+		]
+	},
+	"CTA": {
+		"title": "Siap Menemukan Rumah Impian Anda?",
+		"subtitle": "Hubungi tim kami hari ini untuk janji kunjungan eksklusif dan peluang investasi.",
+		"button": "Hubungi Kami"
+	},
+	"Footer": {
+		"description": "Membangun ruang hidup modern untuk masa depan yang lebih baik. Pengembangan properti premium yang dirancang untuk kenyamanan, kualitas, dan nilai jangka panjang.",
+		"contact": "Kontak",
+		"quickLinks": "Tautan Cepat",
+		"followUs": "Ikuti Kami",
+		"rights": "Hak cipta dilindungi."
+	}
+}

@@ -1,0 +1,109 @@
+{
+	"Navigations": {
+		"home": "Home",
+		"about": "About",
+		"projects": "Projects",
+		"whyUs": "Why Us",
+		"contact": "Contact"
+	},
+	"Hero": {
+		"headline": "Building Modern Living Spaces for a Better Future",
+		"subheadline": "Premium real estate developments designed for comfort, quality, and long-term value.",
+		"cta": "View Our Projects",
+		"ctaSecondary": "Contact Us"
+	},
+	"About": {
+		"title": "About Prestige Estates",
+		"subtitle": "Crafting Excellence Since 2005",
+		"description": "With nearly two decades of experience, we have established ourselves as a leading real estate developer committed to creating exceptional living spaces that stand the test of time.",
+		"vision": {
+			"title": "Our Vision",
+			"text": "To redefine urban living by creating sustainable, innovative, and luxurious residential communities that inspire and elevate everyday life."
+		},
+		"mission": {
+			"title": "Our Mission",
+			"text": "To deliver premium real estate developments that exceed expectations through superior craftsmanship, attention to detail, and unwavering commitment to quality."
+		},
+		"values": {
+			"title": "Our Values",
+			"text": "Integrity, excellence, innovation, and customer-centricity guide every decision we make and every project we undertake."
+		}
+	},
+	"Projects": {
+		"title": "Featured Projects",
+		"subtitle": "Discover Our Premium Developments",
+		"viewProject": "View Project",
+		"items": [
+			{
+				"name": "The Grand Residence",
+				"location": "Jakarta Selatan",
+				"type": "Exclusive Residence"
+			},
+			{
+				"name": "Emerald Gardens",
+				"location": "BSD City",
+				"type": "Modern Housing"
+			},
+			{
+				"name": "Puri Kencana",
+				"location": "SCBD Jakarta",
+				"type": "Premium Housing"
+			}
+		]
+	},
+	"WhyUs": {
+		"title": "Why Choose Us",
+		"subtitle": "Your Trusted Partner in Real Estate",
+		"reasons": [
+			{
+				"title": "Proven Track Record",
+				"description": "Over 50 successful projects delivered with 100% customer satisfaction."
+			},
+			{
+				"title": "Premium Quality",
+				"description": "We use only the finest materials and partner with world-renowned architects."
+			},
+			{
+				"title": "Transparent Process",
+				"description": "Clear communication and honest pricing from start to finish."
+			},
+			{
+				"title": "After-Sales Support",
+				"description": "Dedicated customer service team for all your needs post-purchase."
+			}
+		]
+	},
+	"Testimonials": {
+		"title": "What Our Clients Say",
+		"subtitle": "Trusted by Hundreds of Satisfied Homeowners",
+		"items": [
+			{
+				"name": "Sarah Wijaya",
+				"role": "Homeowner, The Grand Residence",
+				"quote": "The attention to detail and quality of construction exceeded all my expectations. Truly a premium living experience."
+			},
+			{
+				"name": "Michael Chen",
+				"role": "Investor",
+				"quote": "Working with Prestige Estates has been exceptional. Their professionalism and commitment to quality make them the perfect partner."
+			},
+			{
+				"name": "Dewi Kartika",
+				"role": "Homeowner, Emerald Gardens",
+				"quote": "From the first meeting to handing over the keys, every step was handled with care and transparency."
+			}
+		]
+	},
+	"CTA": {
+		"title": "Ready to Find Your Dream Home?",
+		"subtitle": "Contact our team today for exclusive viewing appointments and investment opportunities.",
+		"button": "Get in Touch"
+	},
+	"Footer": {
+		"description": "Building modern living spaces for a better future. Premium real estate developments designed for comfort, quality, and long-term value.",
+		"contact": "Contact",
+		"quickLinks": "Quick Links",
+		"followUs": "Follow Us",
+		"rights": "All rights reserved."
+	}
+}
