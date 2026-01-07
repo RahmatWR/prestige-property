@@ -121,7 +121,12 @@ const HeroSection: React.FC = () => {
 				<Image
 					src={heroBackground}
 					alt="Indonesian residential neighborhood"
-					className="w-full h-full object-cover"
+					className="object-cover"
+					fill
+					quality={75}
+					sizes="100vw"
+					placeholder="blur"
+					priority
 				/>
 			</div>
 

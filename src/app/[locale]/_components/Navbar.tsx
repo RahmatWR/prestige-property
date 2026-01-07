@@ -119,7 +119,7 @@ const Navbar: React.FC = () => {
 						href="https://wa.me/6281234567890?text=Halo%20saya%20tertarik%20dengan%20jasa%20Anda"
 						target="_blank"
 						className="btn-primary rounded-xl text-sm">
-						<div className="text-foreground/90">{navLinks[3].label}</div>
+						<div className="text-white">{navLinks[3].label}</div>
 					</Link>
 				</div>
 
@@ -171,10 +171,10 @@ const Navbar: React.FC = () => {
 						</div>
 
 						<Link
-							href="#contact"
-							onClick={() => setIsMobileMenuOpen(false)}
+							href="https://wa.me/6281234567890?text=Halo%20saya%20tertarik%20dengan%20jasa%20Anda"
+							target="_blank"
 							className="btn-primary mt-8 text-center">
-							{navLinks[3].label}
+							<div className="text-white">{navLinks[3].label}</div>
 						</Link>
 					</div>
 				</div>
