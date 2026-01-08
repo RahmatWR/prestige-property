@@ -137,8 +137,8 @@ const ProjectsSection: React.FC = () => {
 										quality={60}
 										fill
 										placeholder="blur"
-										sizes="(max-width: 768px) 90vw,
-										(max-width: 1024px) 45vw, 30vw"
+										sizes="(max-width: 768px) 80vw,
+										(max-width: 1024px) 40vw, 25vw"
 									/>
 								</div>
 								<div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
