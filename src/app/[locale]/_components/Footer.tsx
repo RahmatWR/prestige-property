@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
 								Prestige<span className="text-primary">.</span>
 							</span>
 						</Link>
-						<p className="text-secondary-foreground/70 dark:text-muted-foreground leading-relaxed max-w-md mb-8">
+						<p className="min-h-[96px] text-secondary-foreground/70 dark:text-muted-foreground leading-relaxed max-w-md mb-8">
 							{t("description")}
 						</p>
 						{/* Social Links */}

@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
 			className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
 				isScrolled && !isMobileMenuOpen
 					? "bg-background/60 backdrop-blur-xl border-b border-border/30 shadow-lg shadow-black/5 py-4"
-					: "bg-transparent py-6"
+					: "bg-transparent py-4"
 			}`}>
 			<nav className="container-custom flex items-center justify-between">
 				{/* Logo */}
@@ -154,14 +154,16 @@ const Navbar: React.FC = () => {
 						<div className="flex items-center gap-4 mt-8">
 							<button
 								onClick={toggleLocale}
-								className="flex items-center gap-2 p-3 border border-border rounded text-foreground cursor-pointer hover:bg-primary hover:text-white">
+								className="flex items-center gap-2 p-3 border border-border rounded text-foreground cursor-pointer hover:bg-primary hover:text-white"
+								aria-label="Toggle Locale">
 								<Globe className="w-5 h-5" />
 								{/* <span className="uppercase">{language}</span> */}
 							</button>
 
 							<button
 								onClick={toggleTheme}
-								className="p-3 border border-border rounded text-foreground cursor-pointer hover:bg-primary hover:text-white">
+								className="p-3 border border-border rounded text-foreground cursor-pointer hover:bg-primary hover:text-white"
+								aria-label="Toggle Theme">
 								{!mounted ? null : theme === "light" ? (
 									<Moon className="w-5 h-5" />
 								) : (

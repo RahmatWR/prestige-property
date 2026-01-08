@@ -87,9 +87,6 @@
 	--color-accent: hsl(160 30% 45%);
 	--color-accent-foreground: hsl(220 20% 8%);
 
-	--color-destructive: hsl(0 70% 50%);
-	--color-destructive-foreground: hsl(40 20% 98%);
-
 	--color-border: hsl(220 15% 20%);
 	--color-input: hsl(220 15% 20%);
 	--color-ring: hsl(38 70% 55%);

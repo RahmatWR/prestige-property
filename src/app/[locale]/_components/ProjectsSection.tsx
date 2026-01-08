@@ -134,11 +134,11 @@ const ProjectsSection: React.FC = () => {
 										alt={project.name}
 										className="object-cover transition-transform duration-700 group-hover:scale-105"
 										loading="lazy"
-										quality={65}
+										quality={60}
 										fill
 										placeholder="blur"
-										sizes="(max-width: 768px) 100vw,
-										(max-width: 1024px) 50vw, 33vw"
+										sizes="(max-width: 768px) 90vw,
+										(max-width: 1024px) 45vw, 30vw"
 									/>
 								</div>
 								<div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
