@@ -134,7 +134,7 @@ const ProjectsSection: React.FC = () => {
 										alt={project.name}
 										className="object-cover transition-transform duration-700 group-hover:scale-105"
 										loading="lazy"
-										quality={70}
+										quality={65}
 										fill
 										placeholder="blur"
 										sizes="(max-width: 768px) 100vw,
